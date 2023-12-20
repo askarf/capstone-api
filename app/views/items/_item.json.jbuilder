@@ -7,3 +7,4 @@ json.image item.image
 json.condition item.condition
 json.retail_price item.retail_price
 json.selling_price item.selling_price
+json.user item.user
