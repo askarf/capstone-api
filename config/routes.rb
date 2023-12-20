@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  get "/users" => "users#index"
+  get "/items" => "items#index"
+
+  get "/users" => "items#index"
 end
