@@ -11,7 +11,7 @@ class ItemsController < ApplicationController
 
   def create
     @item = Item.new(
-      user_id: params[:user_id],
+      user_id: current_user.id,
       name: params[:name],
       description: params[:description],
       size: params[:size],
