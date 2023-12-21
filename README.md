@@ -13,4 +13,4 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 
 👩‍🏫 Had a meeting with Amanda (My instructor) to go over all my planning, and make sure my MVP was actually an MVP;) She gave me the go ahead to start coding🥳
 
-🛠️ Built the bare bones of my app. The models,
+🛠️ Built the bare bones of my app. The models, controllers, jbuilders, and routes. I started making all the CRUD actions for the user but something got borked with the password. I guess that will be tomorrows activity!! 
