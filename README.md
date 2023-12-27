@@ -31,3 +31,7 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 
 🤨 I just spent way too long trying to make a modal, so I think I'm going to just go back to good old routing. Maybe ill give modal some more time, but for now i'm going to close when its not broken. Who likes broken code? Only had 2 hours today but still got a lot done!! Happy Holidays:)
 
+## 2023-12-27
+
+😬 Went on a little holiday so had a long break, which made continuing to build more of a challenge. I made the create action for items, as well as the edit and delete. The next step is going to be making sure each page has the correct headers which is going to entail adding some validations. After that I am going to ensure all the nessisary data is being displayed, then import some basic bootstrap. 
+
