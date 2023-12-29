@@ -35,3 +35,12 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 
 😬 Went on a little holiday so had a long break, which made continuing to build more of a challenge. I made the create action for items, as well as the edit and delete. The next step is going to be making sure each page has the correct headers which is going to entail adding some validations. After that I am going to ensure all the nessisary data is being displayed, then import some basic bootstrap. 
 
+## 2023-12-29
+
+😮‍💨 Okay due to lack of writing, I hava a lot to catch you up on. In the past two days I totaly revamped the styling on the website!! downloaded a bootstrap theme that made it look so pretty😍 I'm having a harder time styling to modal, but hopefully we will get that done. I added some nice images, made a user index page on the website and made lots of routing from page to page. I presented today so officially done but I am so excited to build this out!!
+
+🧐 So heres what i'm thinking. First styling for the modal, add a contact form, make the consigners only people who have items and add multiple images to a product. This is all for enhancing the MVP and then i'll move on to messaging user, adding favorites, and then catagories!! then you can shop by catagories, and also ill add a search bar. Whooo!
+
+
+
+
