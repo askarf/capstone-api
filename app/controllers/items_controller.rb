@@ -23,7 +23,7 @@ class ItemsController < ApplicationController
     if @item.save
       render json: { message: "Item successfully created!" }, status: :created
     else
-      render json: { errors: item.errors.full_messages }, status: :bad_request
+      render json: { errors: @item.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
