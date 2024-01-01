@@ -3,7 +3,7 @@ json.user_id item.user_id
 json.name item.name
 json.description item.description
 json.size item.size
-json.image item.image
+json.images item.images
 json.condition item.condition
 json.retail_price item.retail_price
 json.selling_price item.selling_price

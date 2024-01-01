@@ -1,9 +1,14 @@
 class ImagesController < ApplicationController
   def create
     @image = Image.new(
-      user_id: current_user.id,
+      item_id: params[:item_id],
       url: params[:url],
     )
+    if @image.save
+      render json: { message: "Item successfully created!" }, status: :created
+    else
+      render json: { errors: @image.errors.full_messages }, status: :unprocessable_entity
+    end
   end
 
   def index
