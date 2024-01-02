@@ -41,6 +41,9 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 
 🧐 So heres what i'm thinking. First styling for the modal, add a contact form, make the consigners only people who have items and add multiple images to a product. This is all for enhancing the MVP and then i'll move on to messaging user, adding favorites, and then catagories!! then you can shop by catagories, and also ill add a search bar. Whooo!
 
+## 2024-01-01
+
+🥳 Happy new year!! This is my first time editing my project just for me. Not because im presenting or have to be doing something in class. I'm excited to see how far I can bring this. Today I am going to start to work on adding images to each product. I think I will start with the api- adding a modal, and then controller and updating all the jbuilders. 
 
 
 
