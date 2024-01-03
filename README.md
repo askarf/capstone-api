@@ -46,4 +46,10 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 🥳 Happy new year!! This is my first time editing my project just for me. Not because im presenting or have to be doing something in class. I'm excited to see how far I can bring this. Today I am going to start to work on adding images to each product. I think I will start with the api- adding a modal, and then controller and updating all the jbuilders. 
 
 
+## 2024-01-03
 
+😅 So two days ago I set out to add images to my project. It was all going well, I set up a new model, controller, routes. Then I deleted the old images and displayed each items individual images in a bootstrap carosel. I was so proud of myself and all was going smoothly. Then I went to deploy my website and I saw on my notes that i should seed the data. So i followed the instructions and all my data got dumped - or so I thought. I was so distraught that I had just deleted all my hard work and where had I gone wrong. Now not only did I not have data but my website wouldnt deploy. I closed up shop and figured I would come back to the issue (which has proven to be very helpful).
+
+😮‍💨 Today I came back and had a look at the seeds file. Turns out everything had been put into the seeds file! I still had all my data, and I still could not db:seed it. After trying to read the error for a few minutes I realized what was wrong. All the data was relying on each other  - I couldnt seed the items if they had to have a user and no user. So i commented out everything and only did the users. Then I commented out the images and created the items. When i went to create the images it also didnt work - but I realized it was because the id's of the items had changed so I had to update them all. 
+
+🥰 Now I can go to bed with a clear consciounce. Tommorow I will be working on putting the theme in the create and edit modals and then attempting to deploy again. Good night😴
