@@ -10,7 +10,7 @@ class ItemsController < ApplicationController
   end
 
   def create
-    @item = Item.new(
+    @item = Item.create(
       user_id: current_user.id,
       name: params[:name],
       description: params[:description],
@@ -19,6 +19,18 @@ class ItemsController < ApplicationController
       retail_price: params[:retail_price],
       selling_price: params[:selling_price],
     )
+    if params[:url1]
+      @image = Image.create!(
+        item_id: @item.id,
+        url: params[:url1],
+      )
+    end
+    if params[:url2]
+      @image = Image.create!(
+        item_id: @item.id,
+        url: params[:url2],
+      )
+    end
     if @item.save
       render json: { message: "Item successfully created!" }, status: :created
     else
