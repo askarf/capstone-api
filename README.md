@@ -53,3 +53,11 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 😮‍💨 Today I came back and had a look at the seeds file. Turns out everything had been put into the seeds file! I still had all my data, and I still could not db:seed it. After trying to read the error for a few minutes I realized what was wrong. All the data was relying on each other  - I couldnt seed the items if they had to have a user and no user. So i commented out everything and only did the users. Then I commented out the images and created the items. When i went to create the images it also didnt work - but I realized it was because the id's of the items had changed so I had to update them all. 
 
 🥰 Now I can go to bed with a clear consciounce. Tommorow I will be working on putting the theme in the create and edit modals and then attempting to deploy again. Good night😴
+
+## 2024-01-23
+
+👋 Hey there, its been a while. Starting to get back into the swing of things. My small project for today is fixing the create item action - because now the items are in their own modal. I am going to try to take images out. Then figure out how to add images with one axios request. Lets see if this can be done. If i have more time (highly unlikely) the edit profile button does not work so ill work on that and then tommorow ill add styling for these to elements
+
+🤕 Wow it's hard work getting back into the grove. I just messed around with the create action and it wasnt working, only on httpie -> until i realized that i had to log in again!! my session had expired. I have to add a feature that if the session expires, it removes the jwt from local storage and forces you to log out. One day:) 
+
+😀 I got the create action up and running. Its not so pretty but i have to deal. Now im going to try to add in image sending. Also how can i send more than one image? i guess well start with one, then make a button that says add another picture which renders another input form and then you can technicaly add how ever many you want. but first lets try with one.
