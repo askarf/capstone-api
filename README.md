@@ -61,3 +61,8 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 🤕 Wow it's hard work getting back into the grove. I just messed around with the create action and it wasnt working, only on httpie -> until i realized that i had to log in again!! my session had expired. I have to add a feature that if the session expires, it removes the jwt from local storage and forces you to log out. One day:) 
 
 😀 I got the create action up and running. Its not so pretty but i have to deal. Now im going to try to add in image sending. Also how can i send more than one image? i guess well start with one, then make a button that says add another picture which renders another input form and then you can technicaly add how ever many you want. but first lets try with one.
+
+## 2024-01-31
+👩‍🏫 so i tried a bunch of times to add the create image function to the create item, and was pretty unsucsessful. Then I had my first tech mentor zoom, and after talking for a bit i asked her to help me with my capstone, and she did!! It is one of the most amazing feelings to finally get past a hurdle. So what she did was in the api, items controller, create action, just before the end we did an if statement - that if there is information in params for the url then create image with this item id and this url. I was able to make 5 diffrent image params which now limits the user to 5 photos but that is okay with me. 
+
+👣 Forging ahead - I now am going to spend some time adding photos to the users closet (i took them out when messing around with the image creation, then i am going to hopefully get the user profile edit button to work, and if i have time today i'll style the create item. I'll see you soon:)
