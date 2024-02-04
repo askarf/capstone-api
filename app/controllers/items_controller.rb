@@ -10,6 +10,11 @@ class ItemsController < ApplicationController
   end
 
   def create
+    if params[:url1].blank?
+      render json: { errors: ["At least one image is required."] }, status: :unprocessable_entity
+      return
+    end
+
     @item = Item.create(
       user_id: current_user.id,
       name: params[:name],
@@ -19,18 +24,13 @@ class ItemsController < ApplicationController
       retail_price: params[:retail_price],
       selling_price: params[:selling_price],
     )
-    if params[:url1]
-      @image = Image.create!(
-        item_id: @item.id,
-        url: params[:url1],
-      )
+
+    (1..5).each do |i|
+      if params["url#{i}"].present?
+        @item.images.build(url: params["url#{i}"])
+      end
     end
-    if params[:url2]
-      @image = Image.create!(
-        item_id: @item.id,
-        url: params[:url2],
-      )
-    end
+
     if @item.save
       render json: { message: "Item successfully created!" }, status: :created
     else
