@@ -66,3 +66,6 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 👩‍🏫 so i tried a bunch of times to add the create image function to the create item, and was pretty unsucsessful. Then I had my first tech mentor zoom, and after talking for a bit i asked her to help me with my capstone, and she did!! It is one of the most amazing feelings to finally get past a hurdle. So what she did was in the api, items controller, create action, just before the end we did an if statement - that if there is information in params for the url then create image with this item id and this url. I was able to make 5 diffrent image params which now limits the user to 5 photos but that is okay with me. 
 
 👣 Forging ahead - I now am going to spend some time adding photos to the users closet (i took them out when messing around with the image creation, then i am going to hopefully get the user profile edit button to work, and if i have time today i'll style the create item. I'll see you soon:)
+
+## 2024-02-04
+🧹Goin to start off today by cleaning up the item create. Okay, that took a couple of hours, but i made it all nice and pretty and added validation that at least one image has to be added, and the errors show on the frontend!! So now the image 
