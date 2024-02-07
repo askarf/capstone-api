@@ -1,2 +1,0 @@
-class Love < ApplicationRecord
-end

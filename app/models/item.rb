@@ -7,6 +7,7 @@ class Item < ApplicationRecord
   validates :selling_price, presence: true
 
   belongs_to :user
+  has_many :users_loved_items
   has_many :images
   accepts_nested_attributes_for :images
 end

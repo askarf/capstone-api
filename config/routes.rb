@@ -18,4 +18,9 @@ Rails.application.routes.draw do
   delete "/users/:id" => "users#destroy"
 
   post "sessions" => "sessions#create"
+
+  get "/users_loved_items" => "users_loved_items#index"
+  get "/users_loved_items/:id" => "users_loved_items#show"
+  post "/users_loved_items/" => "users_loved_items#create"
+  delete "/users_loved_items/:id" => "users_loved_items#destroy"
 end
