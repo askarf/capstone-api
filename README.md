@@ -68,4 +68,10 @@ I am going to be logging all my thoughts, findings, and most importantly my acco
 👣 Forging ahead - I now am going to spend some time adding photos to the users closet (i took them out when messing around with the image creation, then i am going to hopefully get the user profile edit button to work, and if i have time today i'll style the create item. I'll see you soon:)
 
 ## 2024-02-04
-🧹Goin to start off today by cleaning up the item create. Okay, that took a couple of hours, but i made it all nice and pretty and added validation that at least one image has to be added, and the errors show on the frontend!! So now the image 
+🧹Goin to start off today by cleaning up the item create. Okay, that took a couple of hours, but i made it all nice and pretty and added validation that at least one image has to be added, and the errors show on the frontend!! When the user creates the item, they have to add one picture and then it reloads and shows them the view of their profile items.
+
+## 2024-02-06
+🤍 Today I had my tech mentor. We discussed where I wanted to go with my capstone and I think for now instead of focusing on making the modals nicer (which I have been doing for a long time) I am going to focus on the loved Items (and then a chat box). For the likes the abilities will be for the user (only if signed in and maybe i can make a validation that if not signed in it will direct them to the sign in page or a pop up that says you must sign in), in the users profile they can see all of their likes. A seller can also see how many people liked their item. (eventually when you sort maybe we can do sort by most liked)
+
+## 2024-02-07
+🏁 Okay here we go, i challanged myself to have the like button in place intime for next meeting(one week) Today im going to do all the back end - jbuilders, routes, controllers, and crud actions. Ill test it in httpie and veiw on postico. Lets goooooo
