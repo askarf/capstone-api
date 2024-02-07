@@ -20,7 +20,7 @@ Rails.application.routes.draw do
   post "sessions" => "sessions#create"
 
   get "/users_loved_items" => "users_loved_items#index"
-  get "/users_loved_items/:id" => "users_loved_items#show"
+  get "/users_loved_items/:user_id" => "users_loved_items#show"
   post "/users_loved_items/" => "users_loved_items#create"
-  delete "/users_loved_items/:id" => "users_loved_items#destroy"
+  delete "/users_loved_items/:user_id" => "users_loved_items#destroy"
 end

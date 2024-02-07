@@ -17,7 +17,7 @@ class UsersLovedItemsController < ApplicationController
   end
 
   def show
-    @users_loved_item = UsersLovedItem.find_by(id: params["id"])
+    @users_loved_items = UsersLovedItem.where(user_id: params[:user_id])
     render :show
   end
 
